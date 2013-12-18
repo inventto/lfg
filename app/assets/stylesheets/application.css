@@ -17,8 +17,9 @@ body{
 }
 #top{
   height: 100px;
-  background: rgb(237, 247, 247);
-  border: 2px solid rgb(95, 201, 221);
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 90, 166);
+  border-top: #005aa6 solid 4px;
   margin-bottom: 15px;
 }
 #top .menu{
@@ -42,11 +43,12 @@ body{
   -moz-border-radius: 10px;
   -webkit-border-radius:10px;
   border-radius:10px;
+  transition-duration: 0.5s;
 }
 .menu li a.selected,
 .menu li a:hover {
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: #005aa6;
 }
 .menu li ul {
   display: none;
